@@ -1,7 +1,7 @@
 {
   "name": "express-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node template for an express application",
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node ./build/index.js",
@@ -11,9 +11,17 @@
     "build-babel": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-babel"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcarter97/express-template.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "https://github.com/bcarter97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcarter97/express-template/issues"
+  },
+  "homepage": "https://github.com/bcarter97/express-template#readme",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "body-parser": "^1.19.0",
