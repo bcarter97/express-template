@@ -16,5 +16,5 @@ Template repository for a node express application
 <hr/>
 
 <p align="center">
-  Source code licensed under <a href="https://raw.githubusercontent.com/bcarter97/express-template/master/LICENSE">MIT</a>
+  Source code licensed under <a href="https://raw.githubusercontent.com/bcarter97/express-template/main/LICENSE">MIT</a>
 </p>
